@@ -9,23 +9,26 @@ geobuk.shapesize(2,2,3)
 # geobuk.circle(150)
 
 ###################### circle
-geobuk.home()
-geobuk.clear()
-geobuk.penup()
-geobuk.forward(200)
-geobuk.left(90)
-geobuk.pendown()
-geobuk.circle(200)
-geobuk.penup()
-geobuk.home()
-geobuk.pendown()
+def center_circle(radius):
+	geobuk.home()
+	geobuk.clear()
+	geobuk.penup()
+	geobuk.forward(radius)
+	geobuk.left(90)
+	geobuk.pendown()
+	geobuk.circle(radius)
+	geobuk.penup()
+	geobuk.home()
+	geobuk.pendown()
 ###################
-while True:
-	geobuk.left(random.randint(1,360))
-	geobuk.forward(30)
+center_circle(200)
+
+# while True:
+# 	geobuk.left(random.randint(1,360))
+# 	geobuk.forward(30)
 	
-	if geobuk.distance(0,0) > 200:
-		geobuk.undo()
+# 	if geobuk.distance(0,0) > 200:
+# 		geobuk.undo()
 
 
 
