@@ -3,7 +3,7 @@
 # file name : calculator.py
 
 ########### Function ############
-def add(a,b):
+def add(a,...):
 	return a+b
 
 def sub(a,b):
