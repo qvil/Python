@@ -22,6 +22,7 @@ def center_circle(radius):
 	geobuk.pendown()
 ###################
 center_circle(200)
+geobuk.forward(100)
 
 # while True:
 # 	geobuk.left(random.randint(1,360))
