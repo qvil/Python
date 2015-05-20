@@ -3,15 +3,45 @@
 # Author : Taesu Hyeon
 # Travel Place Random Choice Program
 ##############################################
-import random
 
-place = [5]
-cnt = 0
+##############################################
+# Lv 1 Basic
 
-for i in range(0,5):
-	inputval = raw_input("Input travel place : ")
-	place[cnt] = inputval
-	place.append(inputval)
-	cnt += 1
+# import random
 
-print("travel place : %s" % (random.choice(place)))
+# place = [5]
+# cnt = 0
+
+# for i in range(0,5):
+# 	inputval = raw_input("Input travel place : ")
+# 	place[cnt] = inputval
+# 	place.append(inputval)
+# 	cnt += 1
+
+# print("travel place : %s" % (random.choice(place)))
+##############################################
+
+##############################################
+# Lv 2 Input count
+# import random
+
+# cnt = 0
+# number = input("How many place?")
+# place = [number]
+
+# while cnt < number:
+# 	inputval = raw_input("Input travel place : ")
+# 	place[cnt] = inputval
+# 	place.append(inputval)
+# 	cnt += 1
+
+# print("travel place : %s" % (random.choice(place)))
+##############################################
+
+##############################################
+# Lv 3 Dynamic list
+
+##############################################
+
+
+
