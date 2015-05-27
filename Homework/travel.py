@@ -40,6 +40,15 @@
 
 ##############################################
 # Lv 3 Dynamic list
+import random
+
+while cnt < number:
+	inputval = raw_input("Input travel place : ")
+	place[cnt] = inputval
+	place.append(inputval)
+	cnt += 1
+
+print("travel place : %s" % (random.choice(place)))
 
 ##############################################
 
