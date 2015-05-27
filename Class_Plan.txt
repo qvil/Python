@@ -1,3 +1,7 @@
+--------학 습 방 법--------
+!!항상 Class_Plan.txt 참고!!
+가장 상위 디렉토리 All_In_One(Git).docx 은 Git모를때 참고
+
 기간 : 4월~10월
 
 1. 기본(4월~7월) : 변수, list형, for, while, if, input, output, 버전관리(Git)
