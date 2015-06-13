@@ -1,12 +1,12 @@
 #!/usr/bin/python #
 # -*- coding: utf-8 -*- #
 
-########## first step
-# f = open("newfilew.txt", 'r')
-# line = f.readline()
-# print(line)
-# f.close()
-##########
+######### first step
+f = open("newfile.txt", 'r')
+line = f.readlines()
+print(line[0],line[2])
+f.close()
+# #########
 
 # ########## second step
 # f = open("newfile.txt", 'r')
@@ -20,10 +20,10 @@
 # ##########
 
 ########## third step
-f = open("newfile.txt", 'r')
-data = f.read()
+# f = open("newfile.txt", 'r')
+# data = f.read()
 
-print(data)
+# print(data)
 
-f.close()
+# f.close()
 ##########
