@@ -74,3 +74,22 @@ Chapter 7(파이썬으로 그림 그리기) : turtle모듈
 참고사이트 : https://opentechschool.github.io/python-beginners/ko/simple_drawing.html
 http://parkya.tistory.com/1104
 참고소스 : Project/turtle_test-150504.py
+
+------------------------------------------------------------
+
+현재 6월 4주 (13주차)
+
+--------완 료--------
+turtle 체험
+--------숙 제--------
+1. turtle로 원그리기 혹은 원 벗어나지 않는 turtle만들기(책에 나옴)
+
+--------계 획--------
+Chapter 7(파이썬으로 그림 그리기) : turtle모듈, 복습(기본 알고리즘)
+
+------------------------------------------------------------
+편집날짜 : 2015.06.23
+강의계획 : 2015.06.26(13주차)
+강의주제 : Chpater 7 (교재 201p)
+참고사이트 : 하노이의탑(http://noon.tistory.com/1140)
+알고리즘(http://interactivepython.org/courselib/static/pythonds/index.html)
