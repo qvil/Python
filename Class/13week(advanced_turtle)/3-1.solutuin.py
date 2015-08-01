@@ -1,3 +1,5 @@
-import readfile
+import write
+import read
 
-readfile.tsread()
+write.write()
+read.read()

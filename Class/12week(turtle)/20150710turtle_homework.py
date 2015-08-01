@@ -7,8 +7,8 @@ g = turtle.Turtle()
 
 g.home
 g.clear
-# g.forward(forward)
-# g.left(left)
+g.forward(forward)
+g.left(left)
 
 
 ###########################################################

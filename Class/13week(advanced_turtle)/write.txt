@@ -1,2 +1,2 @@
-forward
-left200
+500
+20
