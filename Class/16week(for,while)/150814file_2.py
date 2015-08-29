@@ -13,6 +13,5 @@ print ("cnt : %d" % cnt)
 
 
 r_file.close()
-line.replace("")
 
 print ("find text : %s , count : %d" % cnt)	
