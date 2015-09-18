@@ -31,17 +31,17 @@ class Calculator:
     def __init__(self):
         self.result = 0
 
-    def adder(num):
+    def adder(self,num):
         self.result += num
         return self.result
 
 cal1 = Calculator() # 생성자를 이용해서 Calculator클래스를 cal1변수에 담음
 cal2 = Calculator() # 생성자를 이용해서 Calculator클래스를 cal2변수에 담음
 
-# print(cal1.adder(3))
-# print(cal1.adder(7))
-# print(cal2.adder(1))
-# print(cal2.adder(6))
+print(cal1.adder(3))
+print(cal1.adder(7))
+print(cal2.adder(1))
+print(cal2.adder(6))
 
 class Test:
     test = "test"
@@ -52,7 +52,7 @@ class Test:
 def fprint():
     print("fprint")
 
-a = Test()
-print(a.test)
-a.tprint()
-fprint()
+# a = Test()
+# print(a.test)
+# a.tprint()
+# fprint()
